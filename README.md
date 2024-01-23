@@ -1,6 +1,9 @@
 # cordova-plugin-ios-xhr
 ## cordova-ios 6+ File XHR Plugin
 
+### ARCHIVED
+This plugin is not needed anymore
+
 ### About
 > Originally, this plugin was a merge of two other plugins, and made compatible for cordova-ios 6+.
 
@@ -29,8 +32,7 @@
 
      <preference name="NativeXHRLogging" value="full|none" />
      <preference name="AllowUntrustedCerts"  value="true|false" />
-     <preference name="InterceptRemoteRequests" value="all|secureOnly" />
-     <preference name="CustomUserAgent" value="my_custom_user_agent" />
+     <preference name="InterceptRemoteRequests" value="all|secureOnly|none" />
      <preference name="allowFileAccessFromFileURLs" value="true|false" />
      <preference name="allowUniversalAccessFromFileURLs" value="true|false" />
      
